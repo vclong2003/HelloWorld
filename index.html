@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VCL music</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="background"><img src="assets/album_art/astronomia.jpg" alt="" id="bgImg"></div>
+    <audio src="assets/music/Astronomia - Vicetone_ Tony Igy.flac" id="music"></audio>
+    <div class="container">
+        <img src="assets/album_art/astronomia.jpg" id="albumArt" alt="">
+        <div class="box">
+            <div id="song-info">
+                <p id="song-name">Astronomia</p>
+                <div id="spacer1"></div>
+                <p>-</p>
+                <div id="spacer1"></div>
+                <p id="artist-name">Vicetone, Tony Igy</p>
+            </div>
+            <div id="slider">
+                <div id="currentTime">0 : 0</div>
+                <input type="range" min="0" max="" value="0" id="sli">
+                <div id="durationTime" ></div>
+            </div>
+            <div id="control-button">
+                <img src="assets/player_icon/rewind.png" id="rewind" onclick="rewind()" alt="">
+                <div id="spacer"></div>
+                <img src="assets/player_icon/play-button.png" id="play-pause" onclick="pp()" alt="">
+                <div id="spacer"></div>
+                <img src="assets/player_icon/next.png" id="next" onclick="next()" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

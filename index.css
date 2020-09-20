@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+body {
+    background-color: black;
+}
+
+#background {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter: blur(10px);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bgImg {
+    width: 100%;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    overflow: hidden;
+    width: 400px;
+    height: 520px;
+    border-radius: 3%;
+}
+
+#albumArt {
+    width: 100%;
+    height: auto;
+}
+
+.box {
+    margin-top: -4px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.247);
+}
+
+#song-info {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+}
+#song-name {
+    font-size: 20px;
+}
+#artist-name {
+    font-size: 16px;
+}
+
+#currentTime {
+    width: 12%;
+}
+#slider {
+    height: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+}
+#sli {
+    width: 50%;
+    outline: none;
+}
+#durationTime {
+    width: 12%;
+    padding-left: 3.5%;
+}
+
+#control-button {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rewind {
+    width: 10%;
+}
+#play-pause {
+    width: 10%;
+}
+#next {
+    width: 10%;
+}
+#spacer {
+    width: 18px;
+}
+#spacer1 {
+    width: 12px;
+}
